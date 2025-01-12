@@ -1,0 +1,8 @@
+[package]
+name = "chatgpt_guide_1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = "0.15.0"
+burn-tch = "0.15.0"

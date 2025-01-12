@@ -571,6 +571,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "burn_basic"
+version = "0.1.0"
+dependencies = [
+ "burn",
+]
+
+[[package]]
 name = "bytemuck"
 version = "1.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2676,13 +2683,6 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys 0.52.0",
-]
-
-[[package]]
-name = "my_burn_app"
-version = "0.1.0"
-dependencies = [
- "burn",
 ]
 
 [[package]]
